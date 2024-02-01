@@ -9,6 +9,7 @@ on:
 
 jobs:
   deploy-media-theme:
+    name: Deploy Media Theme to DotNest
     uses: Lombiq/Hosting-Media-Theme/.github/workflows/deploy-media-theme.yml@dev
     secrets:
       URL: ${{ secrets.LETTERS_FROM_FIUME_DEPLOYMENT_URL }}
